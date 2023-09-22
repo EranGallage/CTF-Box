@@ -1,0 +1,117 @@
+:root {
+    --primary : rgba(0, 0, 0, 0.8);
+    --secondary: rgba(0, 0, 0, 0.8);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to right, var(--primary), var(--secondary)), url(../Images/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bodycontainer {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo img {
+    margin-top:15px;
+    width: 150px;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.name {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 25px;
+    color: white;
+}
+
+.logo {
+    float: left;
+}
+
+.navbar {
+    text-align: center;
+    width: 700px;
+    margin-top: 35px;
+    float: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 540;
+    font-size: 14px;
+}
+
+.navbtn {
+    width: 100px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.underline {
+    width: 0px;
+    background-color: rgb(224, 166, 49);
+    height: 2px;
+    transition: 2s;
+}
+
+.navbtn:hover .underline {
+    width: 80px;
+}
+
+.container {
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    color: white;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.container p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.optionbtn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 530;
+    display: inline-block;
+    margin-left: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(224, 166, 49) 50% , rgba(255, 255, 255, 0.4) 50%) right;
+    background-size: 200%;
+    transition: .5s;
+    padding-top: 10px;
+}
+
+.optionbtn a {
+    color: rgb(242, 234, 234);
+}
+
+.optionbtn:hover {
+    background-position: left;
+}
+

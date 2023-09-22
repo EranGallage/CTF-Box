@@ -1,0 +1,50 @@
+.container2 {
+    margin-top: 100px;
+}
+
+.logincontainer {
+    padding-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 380px;
+    border: 2px solid rgb(224, 166, 49);
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.178);
+}
+
+.logindetails {
+    margin-left: 20px;
+    text-align: left;
+    color: white;
+}
+
+.logindetails p {
+    font-size: 16px;
+}
+
+input[type=text] , input[type=password] {
+    margin-top: -15px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.loginbtn {
+    width: 150px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: rgb(224, 166, 49);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 550;
+}
+
+.loginbtn a {
+    color: black;
+}
